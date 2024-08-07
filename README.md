@@ -58,10 +58,10 @@
             <li><a href="#license">License</a></li>
         </ul>
 
-        <h2 id="installation">Installation</h2>
-        <ol>
-            <li>Clone the repository:
-                <pre><code>git clone https://github.com/yourusername/phonebook-backend.git
+<h2 id="installation">Installation</h2>
+<ol>
+    <li>Clone the repository:
+        <pre><code>git clone https://github.com/yourusername/phonebook-backend.git
 cd phonebook-backend</code></pre>
             </li>
             <li>Install the dependencies:
@@ -78,43 +78,43 @@ PORT=3001</code></pre>
             </li>
         </ol>
 
-        <h2 id="usage">Usage</h2>
-        <p>To start the server, run:</p>
-        <pre><code>npm start</code></pre>
-        <p>For development, use:</p>
-        <pre><code>npm run dev</code></pre>
-        <p>This will automatically restart the server when changes are made to the source code.</p>
+<h2 id="usage">Usage</h2>
+<p>To start the server, run:</p>
+<pre><code>npm start</code></pre>
+<p>For development, use:</p>
+<pre><code>npm run dev</code></pre>
+<p>This will automatically restart the server when changes are made to the source code.</p>
 
-        <h2 id="api-endpoints">API Endpoints</h2>
-        <ul>
-            <li><strong>GET</strong> <code>/api/persons</code> - Retrieve all phonebook entries.</li>
-            <li><strong>GET</strong> <code>/api/persons/:id</code> - Retrieve a specific phonebook entry by ID.</li>
-            <li><strong>POST</strong> <code>/api/persons</code> - Add a new phonebook entry.</li>
-            <li><strong>PUT</strong> <code>/api/persons/:id</code> - Update an existing phonebook entry by ID.</li>
-            <li><strong>DELETE</strong> <code>/api/persons/:id</code> - Delete a phonebook entry by ID.</li>
-            <li><strong>GET</strong> <code>/api/info</code> - Retrieve the phonebook info.</li>
-        </ul>
+<h2 id="api-endpoints">API Endpoints</h2>
+<ul>
+    <li><strong>GET</strong> <code>/api/persons</code> - Retrieve all phonebook entries.</li>
+    <li><strong>GET</strong> <code>/api/persons/:id</code> - Retrieve a specific phonebook entry by ID.</li>
+    <li><strong>POST</strong> <code>/api/persons</code> - Add a new phonebook entry.</li>
+    <li><strong>PUT</strong> <code>/api/persons/:id</code> - Update an existing phonebook entry by ID.</li>
+    <li><strong>DELETE</strong> <code>/api/persons/:id</code> - Delete a phonebook entry by ID.</li>
+    <li><strong>GET</strong> <code>/api/info</code> - Retrieve the phonebook info.</li>
+</ul>
 
-        <h2 id="environment-variables">Environment Variables</h2>
-        <p>The following environment variables are used in the project:</p>
+<h2 id="environment-variables">Environment Variables</h2>
+<p>The following environment variables are used in the project:</p>
         <ul>
             <li><code>MONGODB_URI</code>: The URI of your MongoDB database.</li>
             <li><code>PORT</code>: The port on which the server will run (default: 3001).</li>
         </ul>
 
-        <h2 id="contributing">Contributing</h2>
-        <p>Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.</p>
+<h2 id="contributing">Contributing</h2>
+<p>Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.</p>
 
-        <h2 id="license">License</h2>
-        <p>This project is licensed under the MIT License.</p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License.</p>
 
-        <h2 id="error-handling">Error Handling</h2>
-        <p>The backend includes error handling middleware to manage errors gracefully:</p>
-        <ul>
-            <li><strong>CastError</strong>: For malformatted IDs.</li>
-            <li><strong>ValidationError</strong>: For validation errors in Mongoose schemas.</li>
-            <li><strong>General Errors</strong>: For all other errors, a 500 status code is returned.</li>
-        </ul>
-    </div>
+<h2 id="error-handling">Error Handling</h2>
+<p>The backend includes error handling middleware to manage errors gracefully:</p>
+<ul>
+    <li><strong>CastError</strong>: For malformatted IDs.</li>
+    <li><strong>ValidationError</strong>: For validation errors in Mongoose schemas.</li>
+    <li><strong>General Errors</strong>: For all other errors, a 500 status code is returned.</li>
+</ul>
+</div>
 </body>
 </html>
