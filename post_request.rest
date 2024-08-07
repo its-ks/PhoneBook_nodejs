@@ -1,7 +1,0 @@
-POST http://localhost:3000/post
-Content-Type: application/json
-
-{
-  "content": "only JavaScript",
-  "important": false
-}
